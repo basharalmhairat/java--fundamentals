@@ -1,7 +1,7 @@
 # java--fundamentals
 
 
-| Syntax      | Description |
+| DirectoryName      | Link |
 | ----------- | ----------- |
-| basic      | (Link)[https://github.com/basharalmhairat/java--fundamentals/tree/main/basiclibrary]       |
-| basiclibrary   | (Link)[]        |
+| basic      | [Link](https://github.com/basharalmhairat/java--fundamentals/tree/main/basiclibrary)       |
+| basiclibrary   | [Link](https://github.com/basharalmhairat/java--fundamentals/tree/main/basics)        |
