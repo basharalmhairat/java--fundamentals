@@ -48,7 +48,7 @@ public class Restaurant {
     }
 
     public void addReview( String author,String body, int stars) {
-        reviews.add(new Review(body, author, stars));
+        reviews.add(new Review(body, author, stars,this));
         int AVES = 0;
         for (Review Col:this.reviews) {
             AVES = AVES + Col.getStars();}

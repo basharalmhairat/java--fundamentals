@@ -6,13 +6,24 @@ public class Review {
     private String author;
     private int stars;
 
-    public Review(String author,String body,  int stars) {
+
+    public Review(String author,String body,  int stars,Restaurant restaurant) {
+        this.body = body;
+        this.author = author;
+        this.stars = stars;
+    }
+    public Review(String body, String author, int stars, Shop shop) {
         this.body = body;
         this.author = author;
         this.stars = stars;
 
     }
+    public Review(String body, String author, int stars, Theater theater) {
+        this.body = body;
+        this.author = author;
+        this.stars = stars;
 
+    }
     public void setBody(String body) {
         this.body = body;
     }
